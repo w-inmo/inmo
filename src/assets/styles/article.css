@@ -4,12 +4,6 @@
     line-height: 1.8;
 }
 
-@media screen and (max-width: 600px) {
-    #article {
-        border-radius: 0;
-    }
-}
-
 #article > p {
     margin: 1rem 0;
 }
@@ -21,6 +15,10 @@
 #article ul,
 #article ol {
     padding-left: 2rem;
+}
+
+#article li {
+    margin: .6rem 0;
 }
 
 #article h1,
@@ -58,8 +56,8 @@
 }
 
 #article *:not(pre) > code {
-    padding: 0 .4rem;
-    margin: 0 .4rem;
+    padding: .2rem;
+    margin: 0 .2rem;
     background-color: var(--code-part-color);
     color: var(--primary-font-color);
     border-radius: 6px;
@@ -72,6 +70,7 @@
 @media screen and (max-width: 600px) {
     #article {
         font-size: 1.6rem;
+        border-radius: 0;
     }
 
     #article h1 {

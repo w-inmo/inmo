@@ -10,5 +10,6 @@ module.exports = {
     },
     optimizeDeps: {
         include: []
-    }
+    },
+    outDir: "../../www/"
 }
